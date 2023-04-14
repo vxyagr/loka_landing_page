@@ -39,7 +39,10 @@ const HowItWorksSection = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justify-items-center">
           {cards.map((card, index) => (
-            <div className="rounded-lg overflow-hidden lg:max-w-[350px] lg:min-h-[400px]">
+            <div
+              key={index}
+              className="rounded-lg overflow-hidden lg:max-w-[350px] lg:min-h-[400px]"
+            >
               <div className="aspect-w-1 aspect-h-1 ">
                 <img
                   className="w-full h-full object-cover"
