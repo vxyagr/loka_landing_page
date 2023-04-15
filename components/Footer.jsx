@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons";
 
@@ -6,20 +7,20 @@ const Footer = () => {
   return (
     <footer className="bg-custom-blue text-white py-6">
       <div className="container mx-auto">
-        <div className="flex flex-wrap justify-center mb-4">
-          <a href="/link-1" className="mx-4 hover:text-gray-400">
-            How It Works
-          </a>
-          <a href="/link-2" className="mx-4 hover:text-gray-400">
-            Get Loka
-          </a>
-          <a href="/link-3" className="mx-4 hover:text-gray-400">
-            Docs
-          </a>
+        <div className="hidden md:flex space-x-8 justify-center p-5">
+          <Link href="#howitworks">
+            <a className="text-link">How it Works</a>
+          </Link>
+          <Link href="#">
+            <a className="text-link">Get Loka</a>
+          </Link>
+          <Link href="#">
+            <a className="text-link">Docs</a>
+          </Link>
         </div>
         <div className="flex justify-center mb-4">
           <a
-            href="https://twitter.com"
+            href="https://twitter.com/lokaversenft"
             className="mx-2 text-custom-green hover:text-blue-400"
           >
             <FontAwesomeIcon icon={faTwitter} size="lg" />

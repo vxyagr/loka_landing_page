@@ -6,7 +6,7 @@ import Logo from "./Logo";
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
-
+  const dashboardLink = "#";
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -23,15 +23,22 @@ const NavBar = () => {
             </Link>
             <div className="hidden md:flex space-x-8">
               <Link href="#howitworks">
-                <a className="text-gray-600 hover:text-gray-800">
-                  How it Works
+                <a className="text-link">How it Works</a>
+              </Link>
+              <Link href="#">
+                <a className="text-link">Get Loka</a>
+              </Link>
+              <Link
+                href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat/go-to-market-strategy"
+                target="_blank"
+              >
+                <a
+                  className="text-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Docs
                 </a>
-              </Link>
-              <Link href="#">
-                <a className="text-gray-600 hover:text-gray-800">Get Loka</a>
-              </Link>
-              <Link href="#">
-                <a className="text-gray-600 hover:text-gray-800">Docs</a>
               </Link>
             </div>
             <button
@@ -41,34 +48,40 @@ const NavBar = () => {
             >
               <FontAwesomeIcon icon={faBars} className="text-gray-600" />
             </button>
-            <Link href="/connect">
+            <Link href={dashboardLink}>
               <a className="hidden md:block text-gray-600 hover:text-gray-800">
-                Connect
+                <button className="bg-gradient-to-r from-blue-500 rounded-xl to-purple-600 text-white font-bold py-2 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 dark:text-gray-900 sm:text-base md:text-base transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
+                  Launch App
+                </button>
               </a>
             </Link>
           </div>
           {showMenu && (
-            <div className="md:hidden mt-4 space-y-4">
+            <div className="md:hidden mt-4 space-y-4 p-5 text-center justify-center transition duration-300 ease-in-out">
               <Link href="#howitworks">
-                <a className="block text-gray-600 hover:text-gray-800">
-                  How It Works
-                </a>
+                <a className="block text-link">How It Works</a>
               </Link>
               <Link href="#">
-                <a className="block text-gray-600 hover:text-gray-800">
-                  Get Loka
+                <a className="block text-link">Get Loka</a>
+              </Link>
+              <Link href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat/go-to-market-strategy">
+                <a
+                  className="block text-link "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Docs
                 </a>
               </Link>
-              <Link href="#">
-                <a className="block text-gray-600 hover:text-gray-800">
-                  Link 3
-                </a>
-              </Link>
-              <Link href="#">
-                <a className="block text-gray-600 hover:text-gray-800">
-                  Connect
-                </a>
-              </Link>
+              <div className="py-5">
+                <Link href={dashboardLink}>
+                  <a className=" md:block text-gray-600 hover:text-gray-800 text-lg  py-8">
+                    <button className="bg-gradient-to-r from-blue-500 rounded-xl to-purple-600 text-white font-bold py-2  px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 dark:text-gray-900 sm:text-base md:text-base transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
+                      Launch App
+                    </button>
+                  </a>
+                </Link>
+              </div>
             </div>
           )}
         </div>

@@ -6,22 +6,22 @@ import Image from "next/image";
 const HowItWorksSection = () => {
   const cards = [
     {
-      title: "1. Purchase NFT",
+      title: "1. Purchase Loka NFT",
       content:
-        "Buy Loka NFT representing your share of our hashrate ownership.",
-      img: "mint.png",
+        "Get your Loka PFP NFT representing your share of our hashrate ownership. Each Loka PFP NFT art is beautifully crafted with unique traits",
+      img: "NFTsample.png",
     },
     {
       title: "2. Mine Bitcoin",
       content:
         "Our expert team manages the mining process using state-of-the-art hardware and renewable energy.",
-      img: "mine.png",
+      img: "mine.jpg",
     },
     {
       title: "3. Earn Rewards",
       content:
         "Receive Bitcoin rewards in proportion to your hashrate ownership, claimable on Stacks network.",
-      img: "claim.png",
+      img: "earn.jpg",
     },
   ];
 
@@ -37,7 +37,7 @@ const HowItWorksSection = () => {
             How Our Web3 Bitcoin Mining Works?
           </h1>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 justify-items-center items-start">
           {cards.map((card, index) => (
             <div
               key={index}

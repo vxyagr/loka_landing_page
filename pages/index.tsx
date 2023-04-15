@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Loka</title>
         <meta content="Loka" name="description" />
-        <link href="/favicon.ico" rel="icon" />
+        <link href="/favico_loka.png" rel="icon" />
       </Head>
       {/* Navigation */}
       <nav className="w-full h-20 sm:h-16 bg-custom-blue">
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
       </section>
 
       {/* Footer section */}
-      <footer className="w-full">
+      <footer className="w-full h-full">
         <Footer />
       </footer>
     </div>

@@ -8,15 +8,35 @@ const HeroSection = () => {
     >
       <div className="absolute inset-0 bg-black bg-opacity-10"></div>
       <div className="container mx-auto px-4 py-12 relative">
-        <div className="grid grid-cols-1 md:grid-cols-[65%,35%] gap-4 items-center h-full">
+        <div className="grid  gap-4 items-center h-full">
           <div className="text-white">
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
+            <div className="lg:min-h-[200px]"></div>
+            <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg">
               Sustainable and Profitable
             </h1>
-            <h2 className="text-xl md:text-2xl lg:text-4xl">Bitcoin Mining</h2>
-          </div>
-          <div className="bg-white rounded-xl p-4 md:p-8 shadow-md">
-            {/* Add your content for the right side rounded div here */}
+            <h2 className="text-3xl md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg ">
+              Bitcoin Mining
+            </h2>
+            <h2 className="text-3xl p-10 md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg ">
+              <button className="bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-4xl md:text-2xl text-lg font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-2xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
+                Get Loka Now!
+              </button>
+            </h2>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-center text-shadow-lg p-5">
+              Powered by{" "}
+              <img
+                alt=""
+                class="inline-block w-5 -translate-y-[0.1rem]"
+                src="bitcoin_white.svg"
+              />{" "}
+              <span class="font-bold"> Bitcoin</span> and{" "}
+              <img
+                alt=""
+                class="inline-block w-6 -translate-y-[0.1rem]"
+                src="stacks_white.svg"
+              />{" "}
+              <span class="stacks">Stacks</span>
+            </h3>
           </div>
         </div>
       </div>

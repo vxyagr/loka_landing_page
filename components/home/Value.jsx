@@ -31,8 +31,8 @@ const ValueSection = () => {
       className="relative bg-cover bg-center w-full "
       style={{ backgroundImage: "url('/bg_green.jpg')" }}
     >
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justify-items-center">
+      <div className="container mx-auto px-4 py-12 items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8  justify-items-center items-start ">
           {cards.map((card, index) => (
             <div
               key={index}
