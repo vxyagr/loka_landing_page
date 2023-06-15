@@ -14,8 +14,14 @@ const Footer = () => {
           <Link href="#">
             <a className="text-link">Get Loka</a>
           </Link>
-          <Link href="#">
-            <a className="text-link">Docs</a>
+          <Link href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat">
+            <a
+              className="block text-link "
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Docs
+            </a>
           </Link>
         </div>
         <div className="flex justify-center mb-4">

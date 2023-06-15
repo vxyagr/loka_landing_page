@@ -29,7 +29,7 @@ const NavBar = () => {
                 <a className="text-link">Get Loka</a>
               </Link>
               <Link
-                href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat/go-to-market-strategy"
+                href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat"
                 target="_blank"
               >
                 <a
@@ -51,7 +51,7 @@ const NavBar = () => {
             <Link href={dashboardLink}>
               <a className="hidden md:block text-gray-600 hover:text-gray-800">
                 <button className="bg-gradient-to-r from-blue-500 rounded-xl to-purple-600 text-white font-bold py-2 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 dark:text-gray-900 sm:text-base md:text-base transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
-                  Launch App
+                  Apps Coming Soon
                 </button>
               </a>
             </Link>
@@ -64,7 +64,7 @@ const NavBar = () => {
               <Link href="#">
                 <a className="block text-link">Get Loka</a>
               </Link>
-              <Link href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat/go-to-market-strategy">
+              <Link href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat">
                 <a
                   className="block text-link "
                   target="_blank"
@@ -77,7 +77,7 @@ const NavBar = () => {
                 <Link href={dashboardLink}>
                   <a className=" md:block text-gray-600 hover:text-gray-800 text-lg  py-8">
                     <button className="bg-gradient-to-r from-blue-500 rounded-xl to-purple-600 text-white font-bold py-2  px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 dark:text-gray-900 sm:text-base md:text-base transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
-                      Launch App
+                      Apps Coming Soon
                     </button>
                   </a>
                 </Link>

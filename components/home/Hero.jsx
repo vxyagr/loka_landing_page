@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 py-12 relative">
         <div className="grid  gap-4 items-center h-full">
           <div className="text-white">
-            <div className="lg:min-h-[200px]"></div>
+            <div className="lg:min-h-[150px]"></div>
             <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg">
               Sustainable and Profitable
             </h1>
