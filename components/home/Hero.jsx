@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HeroSection = () => {
@@ -18,9 +19,11 @@ const HeroSection = () => {
               Bitcoin Mining
             </h2>
             <h2 className="text-3xl p-10 md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg ">
-              <button className="bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-4xl md:text-2xl text-lg font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-2xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
-                Get Loka Now!
-              </button>
+              <Link href={"https://discord.gg/vNn6CMDA"}>
+                <button className="bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-4xl md:text-2xl text-lg font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-2xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
+                  Join our Discord!
+                </button>
+              </Link>
             </h2>
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-center text-shadow-lg p-5">
               Powered by{" "}
