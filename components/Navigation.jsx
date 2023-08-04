@@ -22,9 +22,9 @@ const NavBar = () => {
               </a>
             </Link>
             <div className="hidden md:flex space-x-8">
-              <Link href="#howitworks">
+              {/*<Link href="#howitworks">
                 <a className="text-link">How it Works</a>
-              </Link>
+              </Link>*/}
               <Link href="#">
                 <a className="text-link">Get Loka</a>
               </Link>
