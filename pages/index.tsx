@@ -4,6 +4,7 @@ import HeroSection from "../components/home/Hero";
 import ValueSection from "../components/home/Value";
 import NavigationBar from "../components/Navigation";
 import HowItWorksSection from "../components/home/HowItWorks";
+import LandingMeta from "../components/home/LandingMeta";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
         <title>Loka</title>
         <meta content="Loka" name="description" />
         <link href="/favico_loka.png" rel="icon" />
+        <LandingMeta />
       </Head>
       {/* Navigation */}
       <nav className="w-full h-20 sm:h-16 bg-custom-blue">
