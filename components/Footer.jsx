@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center mb-4">
           <a
-            href="https://twitter.com/lokaversemining"
+            href="https://twitter.com/lokamining"
             className="mx-2 text-custom-green hover:text-blue-400"
           >
             <FontAwesomeIcon icon={faTwitter} size="lg" />
