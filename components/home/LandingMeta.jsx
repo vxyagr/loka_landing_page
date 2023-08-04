@@ -17,6 +17,7 @@ const LandingMeta = ({}) => {
       <meta property="og:url" content="https://lokamining.com/" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Loka Mining" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         property="og:description"
         content="Get bitcoin at discounted rate! Green and renewable energy powered flexible-term bitcoin mining contract starts from $100"
