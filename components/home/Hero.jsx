@@ -3,7 +3,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 
 const HeroSection = () => {
-  const isSmallScreen = useMediaQuery({ query: "(max-width: 767px)" });
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 850px)" });
   return (
     <div
       className={`relative h-[50vh] md:h-[65vh] lg:h-[75vh] bg-cover bg-center ${
