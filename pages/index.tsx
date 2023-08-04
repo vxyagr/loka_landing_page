@@ -32,10 +32,12 @@ const Home: NextPage = () => {
         <ValueSection />
       </section>
 
-      {/* How it works section */}
+      {/* How it works section
+      
       <section className="w-full">
         <HowItWorksSection />
       </section>
+      */}
 
       {/* Footer section */}
       <footer className="w-full h-full">
