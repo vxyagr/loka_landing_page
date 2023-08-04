@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 //import backgroundImage from "../public/bg_green.jpg";
 
 const ValueSection = () => {
-  const isSmallScreen = useMediaQuery({ query: "(max-width: 850px)" });
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 1000px)" });
   const cards = [
     {
       title: "Powered by Renewable Energy",
