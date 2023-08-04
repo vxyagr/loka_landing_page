@@ -1,13 +1,31 @@
 import Link from "next/link";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
-
+import { isMobile, isTablet } from "react-device-detect";
 const HeroSection = () => {
-  const isSmallScreen = useMediaQuery({ query: "(max-width: 1000px)" });
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 767px)" });
+  const [screenWidth, setScreenWidth] = useState(null);
+
+  const updateScreenWidth = () => {
+    setScreenWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    // Update the screen width when the component mounts
+    updateScreenWidth();
+
+    // Add an event listener to update the screen width when the window is resized
+    window.addEventListener("resize", updateScreenWidth);
+
+    // Remove the event listener when the component unmounts to avoid memory leaks
+    return () => window.removeEventListener("resize", updateScreenWidth);
+  }, []);
   return (
     <div
       className={`relative h-[50vh] md:h-[65vh] lg:h-[75vh] bg-cover bg-center ${
-        isSmallScreen ? "" : "background-hero"
+        screenWidth < 750 ? "" : "background-hero"
       }`}
     >
       <div className="absolute inset-0 lg:bg-black lg:bg-opacity-10"></div>

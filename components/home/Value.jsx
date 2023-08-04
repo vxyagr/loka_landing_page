@@ -1,11 +1,28 @@
 // components/ValueSection.js
 import React from "react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 //import backgroundImage from "../public/bg_green.jpg";
-
+import { isMobile, isTablet } from "react-device-detect";
 const ValueSection = () => {
-  const isSmallScreen = useMediaQuery({ query: "(max-width: 1000px)" });
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 767px)" });
+  const [screenWidth, setScreenWidth] = useState(null);
+
+  const updateScreenWidth = () => {
+    setScreenWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    // Update the screen width when the component mounts
+    updateScreenWidth();
+
+    // Add an event listener to update the screen width when the window is resized
+    window.addEventListener("resize", updateScreenWidth);
+
+    // Remove the event listener when the component unmounts to avoid memory leaks
+    return () => window.removeEventListener("resize", updateScreenWidth);
+  }, []);
   const cards = [
     {
       title: "Powered by Renewable Energy",
@@ -31,7 +48,7 @@ const ValueSection = () => {
     <div
       id="value"
       className={`relative bg-cover bg-center w-full  ${
-        isSmallScreen ? "" : "background-value"
+        screenWidth < 750 ? "" : "background-value"
       }`}
     >
       <div className="container mx-auto px-4 py-12 items-start">
