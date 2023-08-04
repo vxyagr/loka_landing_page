@@ -25,7 +25,7 @@ const ValueSection = () => {
   }, []);
   const cards = [
     {
-      title: "Powered by Renewable Energy",
+      title: "100% Renewable Energy",
       content:
         "Our mining operations are backed by an abundant supply of renewable energy, ensuring a sustainable and environmentally-friendly approach to Bitcoin mining.",
       img: "electrical_services-icon.svg",
