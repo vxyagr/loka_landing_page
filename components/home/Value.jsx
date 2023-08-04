@@ -12,15 +12,15 @@ const ValueSection = () => {
       img: "electrical_services-icon.svg",
     },
     {
-      title: "Affordable Electricity",
+      title: "Affordable Electricity 24/7",
       content:
-        "Our strategic location in Indonesia allows us to take advantage of some of the lowest electricity costs in the world, maximizing your mining profits.",
+        "With less than $0.04/kWh and 24/7 availability on any season, our strategic location in Indonesia allows us to take advantage of some of the lowest electricity costs in the world, maximizing your mining profits.",
       img: "eco_icon.svg",
     },
     {
-      title: "ROI in 2-3 years",
+      title: "30% APR",
       content:
-        "Our unique combination of low electricity costs and high-performance mining hardware ensures a rapid return on investment, with most users experiencing ROI within 2-3 years.",
+        "Our unique combination of low electricity costs and high-performance mining hardware ensures a rapid return on investment, with most users experiencing 30% APR.",
       img: "monetization_icon.svg",
     },
   ];
