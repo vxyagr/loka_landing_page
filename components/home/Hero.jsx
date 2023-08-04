@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div
       className="relative h-[50vh] md:h-[65vh] lg:h-[75vh] bg-cover bg-center"
-      style={{ backgroundImage: "url('/hero_bg.jpg')" }}
+      style={{ backgroundImage: "url('/hero_bg_2.png')" }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-10"></div>
       <div className="container mx-auto px-4 py-12 relative">
