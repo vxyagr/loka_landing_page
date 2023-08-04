@@ -23,24 +23,24 @@ const Home: NextPage = () => {
         {/* Navigation content */}
         <NavigationBar />
       </nav>
+      <div className="relative h-full w-full justify-center overflow-hidden background-mobile">
+        {/* Hero section */}
+        <section className="w-full">
+          <HeroSection></HeroSection>
+        </section>
 
-      {/* Hero section */}
-      <section className="w-full">
-        <HeroSection></HeroSection>
-      </section>
+        {/* Value section */}
+        <section className="w-full">
+          <ValueSection />
+        </section>
 
-      {/* Value section */}
-      <section className="w-full">
-        <ValueSection />
-      </section>
-
-      {/* How it works section
+        {/* How it works section
       
       <section className="w-full">
         <HowItWorksSection />
       </section>
       */}
-
+      </div>
       {/* Footer section */}
       <footer className="w-full h-full">
         <Footer />

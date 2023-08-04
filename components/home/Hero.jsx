@@ -1,19 +1,22 @@
 import Link from "next/link";
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 
 const HeroSection = () => {
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 767px)" });
   return (
     <div
-      className="relative h-[50vh] md:h-[65vh] lg:h-[75vh] bg-cover bg-center"
-      style={{ backgroundImage: "url('/hero_bg_2.png')" }}
+      className={`relative h-[50vh] md:h-[65vh] lg:h-[75vh] bg-cover bg-center ${
+        isSmallScreen ? "" : "background-hero"
+      }`}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-10"></div>
+      <div className="absolute inset-0 lg:bg-black lg:bg-opacity-10"></div>
       <div className="container mx-auto px-4 py-12 relative">
         <div className="grid  gap-4 items-center h-full">
           <div className="text-white">
             <div className="lg:min-h-[150px]"></div>
             <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg">
-              Get Bitcoin at Discounted Rate
+              Bitcoin at 30%++ discount rate
             </h1>
 
             <h2 className="text-3xl p-10 md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg ">

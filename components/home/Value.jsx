@@ -1,9 +1,11 @@
 // components/ValueSection.js
 import React from "react";
 import Image from "next/image";
+import { useMediaQuery } from "react-responsive";
 //import backgroundImage from "../public/bg_green.jpg";
 
 const ValueSection = () => {
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 767px)" });
   const cards = [
     {
       title: "Powered by Renewable Energy",
@@ -18,9 +20,9 @@ const ValueSection = () => {
       img: "eco_icon.svg",
     },
     {
-      title: "30% APR",
+      title: "40% APR",
       content:
-        "Our unique combination of low electricity costs and high-performance mining hardware ensures a rapid return on investment, with most users experiencing 30% APR.",
+        "Our unique combination of low electricity costs and high-performance mining hardware ensures a rapid return on investment, with most users experiencing around 40% APR.",
       img: "monetization_icon.svg",
     },
   ];
@@ -28,8 +30,9 @@ const ValueSection = () => {
   return (
     <div
       id="value"
-      className="relative bg-cover bg-center w-full "
-      style={{ backgroundImage: "url('/bg_green.jpg')" }}
+      className={`relative bg-cover bg-center w-full  ${
+        isSmallScreen ? "" : "background-value"
+      }`}
     >
       <div className="container mx-auto px-4 py-12 items-start">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8  justify-items-center items-start ">
