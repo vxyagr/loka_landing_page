@@ -58,9 +58,9 @@ const NavBar = () => {
           </div>
           {showMenu && (
             <div className="md:hidden mt-4 space-y-4 p-5 text-center justify-center transition duration-300 ease-in-out">
-              <Link href="#howitworks">
+              {/*<Link href="#howitworks">
                 <a className="block text-link">How It Works</a>
-              </Link>
+          </Link>*/}
               <Link href="#">
                 <a className="block text-link">Get Loka</a>
               </Link>

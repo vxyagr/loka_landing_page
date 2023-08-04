@@ -17,7 +17,7 @@ const HeroSection = () => {
             </h1>
 
             <h2 className="text-3xl p-10 md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg ">
-              <Link href={"https://discord.gg/vNn6CMDA"}>
+              <Link href={"https://discord.gg/yDytXMMDs9"}>
                 <button className="bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-4xl md:text-2xl text-lg font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-2xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
                   Get Early Access
                 </button>
