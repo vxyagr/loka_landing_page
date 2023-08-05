@@ -93,4 +93,22 @@ a {
 
 .hero-lexend {
   font-family: "Lexend", sans-serif;
+  font-weight: 500;
+}
+
+.light-lexend {
+  font-family: "Lexend", sans-serif;
+  font-weight: 300;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.content-div {
+  display: inline-block; /* Or use 'inline-flex' if you prefer */
+  max-width: max-content;
 }

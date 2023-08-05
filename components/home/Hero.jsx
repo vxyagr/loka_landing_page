@@ -24,40 +24,41 @@ const HeroSection = () => {
   }, []);
   return (
     <div
-      className={`relative h-[50vh] md:h-[65vh] sm:h-[35vh] xs:h-[35vh] lg:h-[100vh] bg-cover bg-center ${
+      className={`relative h-full  bg-cover bg-center ${
         screenWidth < 750 ? "" : "background-hero"
       }`}
     >
       <div className="absolute inset-0 lg:bg-black lg:bg-opacity-20"></div>
-      <div className="container mx-auto px-4 py-12 relative">
-        <div className="grid  gap-4 items-center h-full">
-          <div className="text-white">
-            <div className="lg:min-h-[150px]"></div>
-            <h1 className="text-5xl md:text-4xl lg:text-7xl font-bold text-center sm:pt-20 xs:pt-20  hero-lexend">
+      <div className="container mx-auto px-4 lg:py-6 md:py-6 py-0 relative">
+        <div className="grid  gap-4  items-start h-[100vh]">
+          <div className="text-white lg:pt-60 pt-40 md:pt-50">
+            <h1 className="text-5xl md:text-4xl lg:text-7xl font-bold text-center   hero-lexend">
               Bitcoin at 30%++ discount rate
             </h1>
 
-            <h2 className="text-3xl p-10 md:text-4xl lg:text-7xl font-bold text-center  ">
+            <h2 className="text-4xl p-10 md:text-4xl lg:text-7xl font-bold text-center  ">
               <Link href={"https://discord.gg/yDytXMMDs9"}>
-                <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-4xl md:text-2xl text-lg font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-2xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
+                <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-xl to-purple-600 text-white lg:text-4xl md:text-3xl text-3xl font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
                   Get Early Access
                 </button>
               </Link>
             </h2>
-            <h3 className="hero-lexend text-xl md:text-2xl lg:text-3xl font-bold text-center  p-5">
-              Powered by{" "}
-              <img
-                alt=""
-                class="inline-block w-5 -translate-y-[0.1rem]"
-                src="bitcoin_white.svg"
-              />{" "}
-              <span class="font-bold"> Bitcoin</span> and{" "}
-              <img
-                alt=""
-                class="inline-block w-6 -translate-y-[0.1rem]"
-                src="stacks_white.svg"
-              />{" "}
-              <span class="stacks">Stacks</span>
+            <h3 className="text-center  p-2 ">
+              <div className="content-div bg-black lg:bg-transparent md:bg-transparent  bg-opacity-70 rounded-xl light-lexend  text-white lg:text-xl md:text-xl text-md font-bold lg:py-2 lg:px-2 py-1 px-4 l active:scale-95 sm:text-xl  transition duration-300 ease-in-out ">
+                Powered by{" "}
+                <img
+                  alt=""
+                  class="inline-block w-5 -translate-y-[0.1rem]"
+                  src="bitcoin_white.svg"
+                />{" "}
+                <span class="font-bold"> Bitcoin</span> and{" "}
+                <img
+                  alt=""
+                  class="inline-block w-6 -translate-y-[0.1rem]"
+                  src="stacks_white.svg"
+                />{" "}
+                <span class="stacks">Stacks</span>
+              </div>
             </h3>
           </div>
         </div>

@@ -19,19 +19,19 @@ const Home: NextPage = () => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500&display=swap"
           rel="stylesheet"
         />
         <LandingMeta />
       </Head>
       {/* Navigation */}
-      <nav className="w-full h-20 sm:h-16 bg-custom-blue">
+      <nav className="w-full h-20 sm:h-16 bg-custom-blue ">
         {/* Navigation content */}
         <NavigationBar />
       </nav>
-      <div className="relative h-full w-full justify-center overflow-hidden background-mobile">
+      <div className="relative h-full w-full justify-center background-mobile  overflow-auto hide-scrollbar">
         {/* Hero section */}
-        <section className="w-full">
+        <section className="w-full h-[100vh]">
           <HeroSection></HeroSection>
         </section>
 
