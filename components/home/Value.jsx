@@ -56,7 +56,7 @@ const ValueSection = () => {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="w-full   lg:max-w-[350px] lg:min-h-[400px] p-4 rounded-2xl shadow-md opacity-75 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
+              className="w-full   lg:max-w-[550px] lg:min-h-[400px] p-4 rounded-2xl shadow-md opacity-75 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
               style={{
                 background: "linear-gradient(360deg, #273D4C, #747620)",
               }}
