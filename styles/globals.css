@@ -66,7 +66,7 @@ a {
 }
 
 .background-mobile {
-  background-image: url("../public/bg_mobile.png");
+  background-image: url("../public/bg_mobile.jpg");
   /* You can also specify other background properties like size and position */
   background-size: cover;
   background-position: center;
@@ -76,7 +76,7 @@ a {
 }
 
 .background-hero {
-  background-image: url("../public/hero_bg_2.png");
+  background-image: url("../public/hero_bg_2.jpg");
   /* You can also specify other background properties like size and position */
   background-size: cover;
   background-position: center;
