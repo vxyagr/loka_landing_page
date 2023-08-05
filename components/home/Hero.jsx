@@ -33,7 +33,7 @@ const HeroSection = () => {
         <div className="grid  gap-4 items-center h-full">
           <div className="text-white">
             <div className="lg:min-h-[150px]"></div>
-            <h1 className="text-5xl md:text-4xl lg:text-7xl font-bold text-center  hero-lexend">
+            <h1 className="text-5xl md:text-4xl lg:text-7xl font-bold text-center sm:pt-20 xs:pt-20  hero-lexend">
               Bitcoin at 30%++ discount rate
             </h1>
 
