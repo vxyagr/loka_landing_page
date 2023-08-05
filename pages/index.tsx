@@ -16,6 +16,12 @@ const Home: NextPage = () => {
         <title>Loka</title>
         <meta content="Loka" name="description" />
         <link href="/favico_loka.png" rel="icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap"
+          rel="stylesheet"
+        />
         <LandingMeta />
       </Head>
       {/* Navigation */}

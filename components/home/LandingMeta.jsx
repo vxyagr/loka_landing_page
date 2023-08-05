@@ -37,12 +37,6 @@ const LandingMeta = ({}) => {
         content="Get bitcoin at discounted rate! Green and renewable energy powered flexible-term bitcoin mining contract starts from $100"
       />
       <meta name="twitter:image" content="" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap"
-        rel="stylesheet"
-      />
     </>
   );
 };

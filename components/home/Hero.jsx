@@ -44,7 +44,7 @@ const HeroSection = () => {
                 </button>
               </Link>
             </h2>
-            <h3 className="hero-lexend text-xl md:text-2xl lg:text-3xl font-bold text-center text-shadow-lg p-5">
+            <h3 className="hero-lexend text-xl md:text-2xl lg:text-3xl font-bold text-center  p-5">
               Powered by{" "}
               <img
                 alt=""
