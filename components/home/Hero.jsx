@@ -24,16 +24,16 @@ const HeroSection = () => {
   }, []);
   return (
     <div
-      className={`relative h-[50vh] md:h-[65vh] lg:h-[75vh] bg-cover bg-center ${
+      className={`relative h-[50vh] md:h-[65vh] sm:h-[35vh] xs:h-[35vh] lg:h-[100vh] bg-cover bg-center ${
         screenWidth < 750 ? "" : "background-hero"
       }`}
     >
-      <div className="absolute inset-0 lg:bg-black lg:bg-opacity-10"></div>
+      <div className="absolute inset-0 lg:bg-black lg:bg-opacity-20"></div>
       <div className="container mx-auto px-4 py-12 relative">
         <div className="grid  gap-4 items-center h-full">
           <div className="text-white">
             <div className="lg:min-h-[150px]"></div>
-            <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg">
+            <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-center text-shadow-lg hero-lexend">
               Bitcoin at 30%++ discount rate
             </h1>
 

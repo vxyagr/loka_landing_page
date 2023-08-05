@@ -89,3 +89,10 @@ a {
   background-size: cover;
   background-position: center;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap");
+
+.hero-lexend {
+  font-family: "Lexend", sans-serif;
+  font-weight: bold;
+}
