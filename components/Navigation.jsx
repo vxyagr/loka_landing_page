@@ -29,7 +29,7 @@ const NavBar = () => {
                 <a className="text-link">Get Loka</a>
               </Link>
               <Link
-                href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat"
+                href="https://lifeandwork.notion.site/Loka-Mining-Platform-Overview-a214238d662c49739d2bdb8761e2addc?pvs=4"
                 target="_blank"
               >
                 <a
@@ -61,10 +61,10 @@ const NavBar = () => {
               {/*<Link href="#howitworks">
                 <a className="block text-link">How It Works</a>
           </Link>*/}
-              <Link href="#">
+              {/*<Link href="#">
                 <a className="block text-link">Get Loka</a>
-              </Link>
-              <Link href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat">
+        </Link>*/}
+              <Link href="https://lifeandwork.notion.site/Loka-Mining-Platform-Overview-a214238d662c49739d2bdb8761e2addc?pvs=4">
                 <a
                   className="block text-link "
                   target="_blank"

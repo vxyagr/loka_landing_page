@@ -35,7 +35,6 @@ const HeroSection = () => {
             <h1 className="text-5xl md:text-4xl lg:text-7xl font-bold text-center   hero-lexend">
               Bitcoin at 30%++ discount rate
             </h1>
-
             <h2 className="text-4xl p-10 md:text-4xl lg:text-7xl font-bold text-center  ">
               <Link href={"https://discord.gg/yDytXMMDs9"}>
                 <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-xl to-purple-600 text-white lg:text-4xl md:text-3xl text-3xl font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
@@ -43,6 +42,7 @@ const HeroSection = () => {
                 </button>
               </Link>
             </h2>
+
             <h3 className="text-center  p-2 ">
               <div className="content-div bg-black lg:bg-transparent md:bg-transparent  bg-opacity-70 rounded-xl light-lexend  text-white lg:text-xl md:text-xl text-md font-bold lg:py-2 lg:px-2 py-1 px-4 l active:scale-95 sm:text-xl  transition duration-300 ease-in-out ">
                 Powered by{" "}
@@ -58,6 +58,25 @@ const HeroSection = () => {
                   src="stacks_white.svg"
                 />{" "}
                 <span class="stacks">Stacks</span>
+              </div>
+            </h3>
+            <h3 className="text-center  p-2 ">
+              <div className="">
+                <Link
+                  href={
+                    "https://lifeandwork.notion.site/Loka-Mining-Platform-Overview-a214238d662c49739d2bdb8761e2addc?pvs=4"
+                  }
+                >
+                  <a
+                    className="block text-link "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="content-div font-bold bg-white   bg-opacity-70 rounded-xl hero-lexend  text-black lg:text-xl md:text-xl text-md  lg:py-2 lg:px-4 py-1 px-4 l active:scale-95 sm:text-xl  transition duration-300 ease-in-out ">
+                      Read LOKA Docs
+                    </button>
+                  </a>
+                </Link>
               </div>
             </h3>
           </div>

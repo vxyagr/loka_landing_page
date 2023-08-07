@@ -14,7 +14,7 @@ const Footer = () => {
           <Link href="#">
             <a className="text-link">Get Loka</a>
           </Link>
-          <Link href="https://loka-1.gitbook.io/lokaverse-how-it-works-tokenomics-and-gtm-strat">
+          <Link href="https://lifeandwork.notion.site/Loka-Mining-Platform-Overview-a214238d662c49739d2bdb8761e2addc?pvs=4">
             <a
               className="block text-link "
               target="_blank"
