@@ -72,6 +72,14 @@ a {
   background-position: center;
 }
 
+.background-mobile-static {
+  background-image: url("../public/bg_mobile_2.jpg"); /* Adjust the path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
 .background-none {
 }
 

@@ -29,23 +29,25 @@ const Home: NextPage = () => {
         {/* Navigation content */}
         <NavigationBar />
       </nav>
-      <div className="relative h-full w-full justify-center background-mobile  overflow-auto hide-scrollbar">
-        {/* Hero section */}
-        <section className="w-full h-[100vh]">
-          <HeroSection></HeroSection>
-        </section>
+      <div className="relative h-full w-full justify-center background-mobile-static  overflow-auto hide-scrollbar">
+        <div className="bg-[#152233] bg-opacity-50 p-0 m-0">
+          {/* Hero section */}
+          <section className="w-full h-[100vh]">
+            <HeroSection></HeroSection>
+          </section>
 
-        {/* Value section */}
-        <section className="w-full">
-          <ValueSection />
-        </section>
+          {/* Value section */}
+          <section className="w-full">
+            <ValueSection />
+          </section>
 
-        {/* How it works section
+          {/* How it works section
       
       <section className="w-full">
         <HowItWorksSection />
       </section>
       */}
+        </div>
       </div>
       {/* Footer section */}
       <footer className="w-full h-full">
