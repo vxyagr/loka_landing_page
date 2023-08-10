@@ -6,7 +6,7 @@ import Logo from "./Logo";
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const dashboardLink = "https://dev-dashboard.lokamining.com";
+  const dashboardLink = "https://dev-dashboard.lokamining.com/buy";
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
