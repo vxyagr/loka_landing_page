@@ -36,12 +36,8 @@ const HeroSection = () => {
               Bitcoin at 30%++ discount rate
             </h1>
             <h2 className="text-4xl p-10 md:text-4xl lg:text-7xl font-bold text-center  ">
-              <Link
-                href={
-                  "https://blocksurvey.io/early-access-X36elCqiSfe3E6RKGAL8cw-o"
-                }
-              >
-                <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-xl to-purple-600 text-white lg:text-4xl md:text-3xl text-3xl font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
+              <Link href={"/start"}>
+                <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-5xl md:text-4xl text-4xl font-bold lg:py-6 lg:px-12 py-3 px-8 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
                   Start
                 </button>
               </Link>
@@ -65,7 +61,7 @@ const HeroSection = () => {
               </div>
             </h3>
             <h3 className="text-center  p-2 ">
-              <div className="">
+              <div className="inline-block">
                 <Link
                   href={
                     "https://lifeandwork.notion.site/Loka-Mining-Platform-Overview-a214238d662c49739d2bdb8761e2addc?pvs=4"
