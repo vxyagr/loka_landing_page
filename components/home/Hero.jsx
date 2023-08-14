@@ -36,9 +36,13 @@ const HeroSection = () => {
               Bitcoin at 30%++ discount rate
             </h1>
             <h2 className="text-4xl p-10 md:text-4xl lg:text-7xl font-bold text-center  ">
-              <Link href={"https://discord.gg/yDytXMMDs9"}>
+              <Link
+                href={
+                  "https://blocksurvey.io/early-access-X36elCqiSfe3E6RKGAL8cw-o"
+                }
+              >
                 <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-xl to-purple-600 text-white lg:text-4xl md:text-3xl text-3xl font-bold lg:py-6 lg:px-8 py-3 px-4 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
-                  Get Early Access
+                  Start
                 </button>
               </Link>
             </h2>
