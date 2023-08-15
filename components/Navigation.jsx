@@ -28,10 +28,7 @@ const NavBar = () => {
               <Link href="#">
                 <a className="text-link">Get Loka</a>
               </Link>
-              <Link
-                href="https://lifeandwork.notion.site/Loka-Mining-Platform-Overview-a214238d662c49739d2bdb8761e2addc?pvs=4"
-                target="_blank"
-              >
+              <Link href="https://docs.lokamining.com" target="_blank">
                 <a
                   className="text-link"
                   target="_blank"
@@ -64,7 +61,7 @@ const NavBar = () => {
               {/*<Link href="#">
                 <a className="block text-link">Get Loka</a>
         </Link>*/}
-              <Link href="https://lifeandwork.notion.site/Loka-Mining-Platform-Overview-a214238d662c49739d2bdb8761e2addc?pvs=4">
+              <Link href="https://docs.lokamining.com">
                 <a
                   className="block text-link "
                   target="_blank"

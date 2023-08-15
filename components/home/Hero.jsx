@@ -31,14 +31,21 @@ const HeroSection = () => {
       <div className="absolute inset-0 lg:bg-black lg:bg-opacity-20"></div>
       <div className="container mx-auto px-4 lg:py-6 md:py-6 py-0 relative">
         <div className="grid  gap-4  items-start h-[100vh]">
-          <div className="text-white lg:pt-60 pt-40 md:pt-50">
+          <div className="text-white grid lg:pt-60 pt-40 md:pt-50 justify-center items-center text-center">
             <h1 className="text-5xl md:text-4xl lg:text-7xl font-bold text-center   hero-lexend">
               Bitcoin at 30%++ discount rate
             </h1>
+            {/*<div className="max-w-[60%]">
+              <h2 className="text-xl md:text-2xl lg:text-2xl font-bold text-center inline-block justify-center items-center   hero-lexend">
+                Earn more Bitcoin daily as a miner using our high performing and
+                low cost bitcoin mining infrastrucure With the simplicity of 3
+                clicks!
+              </h2>
+            </div>*/}
             <h2 className="text-4xl p-10 md:text-4xl lg:text-7xl font-bold text-center  ">
               <Link href={"/start"}>
                 <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-5xl md:text-4xl text-4xl font-bold lg:py-6 lg:px-12 py-3 px-8 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
-                  Start
+                  Start Here
                 </button>
               </Link>
             </h2>
@@ -62,11 +69,7 @@ const HeroSection = () => {
             </h3>
             <h3 className="text-center  p-2 ">
               <div className="inline-block">
-                <Link
-                  href={
-                    "https://lifeandwork.notion.site/Loka-Mining-Platform-Overview-a214238d662c49739d2bdb8761e2addc?pvs=4"
-                  }
-                >
+                <Link href={"https://docs.lokamining.com"}>
                   <a
                     className="block text-link "
                     target="_blank"
