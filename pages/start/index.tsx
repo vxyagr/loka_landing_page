@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Loka</title>
+        <title>Loka Mining — Get More Bitcoin, Pay Less Dollar</title>
         <meta content="Loka" name="description" />
         <link href="/favico_loka.png" rel="icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         {/* Hero section */}
 
         <div className="absolute inset-0 lg:bg-black lg:bg-opacity-20"></div>
-        <div className="container mx-auto px-4 lg:py-20 md:py-6 py-0 relative">
+        <div className="container mx-auto px-4 py-20 md:py-6  relative">
           <div className="grid  gap-4  items-start ">
             <section className="w-full  justify-start items-center text-center">
               <embed

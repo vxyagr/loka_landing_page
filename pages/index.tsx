@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Loka</title>
+        <title>Loka Mining — Get More Bitcoin, Pay Less Dollar</title>
         <meta content="Loka" name="description" />
         <link href="/favico_loka.png" rel="icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
