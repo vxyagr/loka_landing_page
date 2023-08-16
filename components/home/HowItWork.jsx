@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
+import Link from "next/link";
 //import backgroundImage from "../public/bg_green.jpg";
 import { isMobile, isTablet } from "react-device-detect";
 const HowItWorksSection = () => {
@@ -89,6 +90,15 @@ const HowItWorksSection = () => {
           </div>
           <div className=" text-3xl font-bold text-center w-full p-5 text-yellow-400">
             Accumulating sats every day is now as easy as the click of a button
+          </div>
+          <div className=" text-xl font-bold text-center w-full p-1 text-yellow-400">
+            <h2 className="text-4xl p-1 md:text-4xl lg:text-7xl font-bold text-center  ">
+              <Link href={"/start"}>
+                <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-3xl md:text-2xl text-2xl font-bold lg:py-4 lg:px-12 py-3 px-3 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
+                  Start Here
+                </button>
+              </Link>
+            </h2>
           </div>
         </div>
       </div>
