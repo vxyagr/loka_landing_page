@@ -50,7 +50,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       {/* Footer section */}
-      <footer className="w-full h-full">
+      <footer className="w-full">
         <Footer />
       </footer>
     </div>
