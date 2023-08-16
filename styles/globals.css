@@ -91,7 +91,8 @@ a {
 }
 
 .background-value {
-  background-image: url("../public/bg_green.jpg");
+  background: linear-gradient(25deg, #123056 40%, #188565);
+  /*background-image: url("../public/bg_green.jpg");*/
   /* You can also specify other background properties like size and position */
   background-size: cover;
   background-position: center;

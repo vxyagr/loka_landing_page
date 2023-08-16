@@ -4,6 +4,7 @@ import HeroSection from "../components/home/Hero";
 import ValueSection from "../components/home/Value";
 import NavigationBar from "../components/Navigation";
 import HowItWorksSection from "../components/home/HowItWorks";
+import DescriptionSection from "../components/home/Description";
 import LandingMeta from "../components/home/LandingMeta";
 import Footer from "../components/Footer";
 import Head from "next/head";
@@ -38,12 +39,15 @@ const Home: NextPage = () => {
           <section className="w-full h-[100vh]">
             <HeroSection></HeroSection>
           </section>
-
-          {/* Value section */}
-          <section className="w-full">
-            <ValueSection />
-          </section>
-
+          <div className="relative bg-cover bg-center w-full background-value">
+            <section className="w-full">
+              <DescriptionSection />
+            </section>
+            {/* Value section */}
+            <section className="w-full">
+              <ValueSection />
+            </section>
+          </div>
           {/* How it works section
       
       <section className="w-full">

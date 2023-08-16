@@ -13,6 +13,8 @@ module.exports = {
       textColor: {
         "custom-blue": "#152233",
         "custom-green": "#027344",
+        "gradient-landing":
+          "linear - gradient(90deg, #007EF2 0 %, #B221B5 100 %)",
       },
       backgroundImage: {
         "gradient-custom": "linear-gradient(30deg, var(--tw-gradient-stops))",
