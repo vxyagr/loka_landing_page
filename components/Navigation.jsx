@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import Logo from "./Logo";
@@ -25,9 +26,18 @@ const NavBar = () => {
               {/*<Link href="#howitworks">
                 <a className="text-link">How it Works</a>
               </Link>*/}
-              <Link href="#">
-                <a className="text-link">Get Loka</a>
-              </Link>
+              <a
+                href="https://twitter.com/lokamining"
+                className="mx-2 text-custom-green hover:text-blue-400"
+              >
+                <FontAwesomeIcon icon={faTwitter} size="lg" />
+              </a>
+              <a
+                href="https://discord.gg/yDytXMMDs9"
+                className="mx-2  text-custom-green hover:text-blue-500"
+              >
+                <FontAwesomeIcon icon={faDiscord} size="lg" />
+              </a>
               <Link href="https://docs.lokamining.com" target="_blank">
                 <a
                   className="text-link"

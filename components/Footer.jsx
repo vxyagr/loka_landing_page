@@ -11,9 +11,6 @@ const Footer = () => {
           {/*<Link href="#howitworks">
             <a className="text-link">How it Works</a>
           </Link>*/}
-          <Link href="#">
-            <a className="text-link">Get Loka</a>
-          </Link>
           <Link href="https://docs.lokamining.com">
             <a
               className="block text-link "
