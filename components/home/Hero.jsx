@@ -37,12 +37,12 @@ const HeroSection = () => {
             </h1>
             <div className="">
               <h2 className="text-xl md:text-2xl lg:text-2xl font-bold text-center inline-block justify-center items-center p-6   hero-lexend">
-                Accumulate sats every day with Loka Mining, as easy as 123
+                Get your sats daily, with nothing to worry.
               </h2>
             </div>
             <h2 className="text-4xl p-10 md:text-4xl lg:text-7xl font-bold text-center  ">
               <Link href={"/start"}>
-                <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-5xl md:text-4xl text-4xl font-bold lg:py-6 lg:px-12 py-3 px-8 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
+                <button className="hero-lexend bg-gradient-to-r from-blue-500 rounded-full to-purple-600 text-white lg:text-4xl md:text-3xl text-3xl font-bold lg:py-6 lg:px-12 py-3 px-8 leading-none tracking-tight hover:bg-left hover:shadow-xl hover:shadow-blue-400/20 active:scale-95 sm:text-3xl  transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">
                   Start Here
                 </button>
               </Link>

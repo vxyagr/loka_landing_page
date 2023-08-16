@@ -6,8 +6,8 @@ import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer className="bg-custom-blue text-white py-6">
-      <div className="container mx-auto">
-        <div className="hidden md:flex space-x-8 justify-center p-5">
+      <div className="">
+        <div className="hidden md:flex justify-center p-5">
           {/*<Link href="#howitworks">
             <a className="text-link">How it Works</a>
           </Link>*/}

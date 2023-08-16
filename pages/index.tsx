@@ -13,8 +13,11 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Loka Mining — Get More Bitcoin, Pay Less Dollar</title>
-        <meta content="Loka" name="description" />
+        <title>Loka Mining | Get More BTC, Pay Less $</title>
+        <meta
+          content="On-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
+          name="description"
+        />
         <link href="/favico_loka.png" rel="icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -29,7 +32,7 @@ const Home: NextPage = () => {
         {/* Navigation content */}
         <NavigationBar />
       </nav>
-      <div className="relative h-full w-full justify-center background-mobile-static  overflow-auto hide-scrollbar">
+      <div className="relative w-full justify-center background-mobile-static overflow-scroll  hide-scrollbar">
         <div className="bg-[#152233] bg-opacity-50 p-0 m-0">
           {/* Hero section */}
           <section className="w-full h-[100vh]">
@@ -47,12 +50,12 @@ const Home: NextPage = () => {
         <HowItWorksSection />
       </section>
       */}
+          <section>
+            <Footer />
+          </section>
         </div>
+        <div></div>
       </div>
-      {/* Footer section */}
-      <footer className="w-full">
-        <Footer />
-      </footer>
     </div>
   );
 };

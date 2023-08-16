@@ -18,12 +18,12 @@ const LandingMeta = ({}) => {
       <meta property="og:type" content="website" />
       <meta
         property="og:title"
-        content="Loka Mining — Get More Bitcoin, Pay Less Dollar"
+        content="Loka Mining | Get More BTC, Pay Less $"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         property="og:description"
-        content="Get bitcoin at discounted rate! Green and renewable energy powered flexible-term bitcoin mining contract starts from $100"
+        content="On-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
       />
       <meta
         property="og:image"
@@ -34,10 +34,13 @@ const LandingMeta = ({}) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:domain" content="lokamining.com" />
       <meta property="twitter:url" content="https://twitter.com/lokamining" />
-      <meta name="twitter:title" content="Loka Mining" />
+      <meta
+        name="twitter:title"
+        content="Loka Mining | Get More BTC, Pay Less $"
+      />
       <meta
         name="twitter:description"
-        content="Get bitcoin at discounted rate! Green and renewable energy powered flexible-term bitcoin mining contract starts from $100"
+        content="On-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
       />
       <meta name="twitter:image" content="" />
     </>

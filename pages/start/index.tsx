@@ -15,8 +15,11 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Loka Mining — Get More Bitcoin, Pay Less Dollar</title>
-        <meta content="Loka" name="description" />
+        <title>Loka Mining | Get More BTC, Pay Less $</title>
+        <meta
+          content="On-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
+          name="description"
+        />
         <link href="/favico_loka.png" rel="icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
