@@ -49,23 +49,23 @@ const DescriptionSection = () => {
 
   return (
     <div id="description">
-      <div className="container mx-auto px-4 py-12 items-start">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  justify-items-center items-start text-white ">
-          <div className="text-5xl text-left justify-start items-start w-full lg:p-5 lg:pl-5 pl-0  ">
-            <span className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
+      <div className="container mx-auto px-4 py-16 items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  justify-items-center items-center text-white ">
+          <div className="text-5xl text-left justify-center items-center w-full lg:p-5 lg:pl-5 pl-0 grid-cols-1  ">
+            <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text p-1">
               Get More
-            </span>
-            <br /> Sats, <br />
-            <span className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
+            </div>
+            <div className="p-1"> Sats, </div>
+            <div className="p-1 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
               Pay Less
-            </span>
-            <br /> With Loka Mining
+            </div>
+            <div className="p-1"> With Loka Mining</div>
           </div>
-          <div className="grid-cols-1 w-full py-3">
+          <div className="grid-cols-1 w-full py-3 common-content">
             {cards.map((card, index) => (
               <div
                 key={index}
-                className="w-full border-b-[1px] p-3 pl-0 text-xl border-b-gray-400"
+                className="w-full text-common-content border-b-[1px] p-3 pl-0 text-xl border-b-gray-400"
               >
                 {card.content}
               </div>

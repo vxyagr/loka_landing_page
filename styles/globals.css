@@ -98,7 +98,7 @@ a {
   background-position: center;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;500&family=Open+Sans:wght@300;500&display=swap");
 
 .hero-lexend {
   font-family: "Lexend", sans-serif;
@@ -117,6 +117,9 @@ a {
   scrollbar-width: none; /* Firefox */
 }
 
+.common-content {
+  font-family: "Open Sans", sans-serif;
+}
 .content-div {
   display: inline-block; /* Or use 'inline-flex' if you prefer */
   max-width: max-content;

@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import HeroSection from "../components/home/Hero";
 import ValueSection from "../components/home/Value";
 import NavigationBar from "../components/Navigation";
-import HowItWorksSection from "../components/home/HowItWorks";
+import HowItWorksSection from "../components/home/HowItWork";
 import DescriptionSection from "../components/home/Description";
 import LandingMeta from "../components/home/LandingMeta";
 import Footer from "../components/Footer";
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500&family=Open+Sans:wght@300;500&display=swap"
           rel="stylesheet"
         />
         <LandingMeta />
@@ -42,6 +42,9 @@ const Home: NextPage = () => {
           <div className="relative bg-cover bg-center w-full background-value">
             <section className="w-full">
               <DescriptionSection />
+            </section>
+            <section className="w-full">
+              <HowItWorksSection />
             </section>
             {/* Value section */}
             <section className="w-full">
