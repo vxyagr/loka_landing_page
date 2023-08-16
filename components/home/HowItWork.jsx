@@ -49,10 +49,10 @@ const HowItWorksSection = () => {
 
   return (
     <div id="description">
-      <div className="container mx-auto px-4 py-12 items-start">
+      <div className="container mx-auto px-4 py-12 items-start ">
         <div className="flex-col  justify-items-center items-center text-white ">
           <div className="text-5xl w-4/5 text-left justify-center items-center  lg:p-5 lg:pl-5 pl-0 flex-row  ">
-            <div className="text-2xl p-1">How Loka Works</div>
+            {/*<div className="text-2xl p-1">How Loka Works</div>*/}
             <div className="p-1 text-3xl font-bold">
               Loka Mining is a{" "}
               <span className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
@@ -86,6 +86,9 @@ const HowItWorksSection = () => {
                 {"(or ~30% discount)"} on 1 year mining contract.
               </div>
             </div>
+          </div>
+          <div className=" text-3xl font-bold text-center w-full p-5 text-yellow-400">
+            Accumulating sats every day is now as easy as the click of a button
           </div>
         </div>
       </div>

@@ -42,7 +42,7 @@ const DescriptionSection = () => {
     {
       title: "40% APR",
       content:
-        " Starts as low $100 and aas short as 1-month period of miningcontract",
+        " Starts as low $100 and as short as 1-month period of mining contract",
       img: "monetization_icon.svg",
     },
   ];
