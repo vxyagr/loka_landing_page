@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             <section className="w-full">
               <DescriptionSection />
             </section>
-            <section className="w-full bg-custom-blue">
+            <section className="w-full ">
               <HowItWorksSection />
             </section>
             {/* Value section */}
