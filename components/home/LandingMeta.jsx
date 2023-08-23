@@ -42,7 +42,10 @@ const LandingMeta = ({}) => {
         name="twitter:description"
         content="On-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
       />
-      <meta name="twitter:image" content="" />
+      <meta
+        name="twitter:image"
+        content="https://lokamining.com/loka_icon_1.png"
+      />
     </>
   );
 };
