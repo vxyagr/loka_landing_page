@@ -27,7 +27,7 @@ const LandingMeta = ({}) => {
       />
       <meta
         property="og:image"
-        content="https://lokamining.com/loka_icon_1.png"
+        content="https://lokamining.com/preview_loka.jpg"
       />
 
       {/* <!-- Twitter Meta Tags --> */}
@@ -44,7 +44,7 @@ const LandingMeta = ({}) => {
       />
       <meta
         name="twitter:image"
-        content="https://lokamining.com/loka_icon_1.png"
+        content="https://lokamining.com/preview_loka.jpg"
       />
     </>
   );
