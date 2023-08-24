@@ -36,7 +36,7 @@ const DescriptionSection = () => {
     },
     {
       title: "40% APR",
-      content: "No need to worry about high electricitycost",
+      content: "No need to worry about high electricity cost",
       img: "monetization_icon.svg",
     },
     {
