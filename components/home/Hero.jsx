@@ -56,13 +56,14 @@ const HeroSection = () => {
                   class="inline-block w-5 -translate-y-[0.1rem]"
                   src="bitcoin_white.svg"
                 />{" "}
-                <span class="font-bold"> Bitcoin</span> and{" "}
+                <span class="font-bold"> Bitcoin</span>{" "}
+                {/*and{" "}
                 <img
                   alt=""
                   class="inline-block w-6 -translate-y-[0.1rem]"
                   src="stacks_white.svg"
                 />{" "}
-                <span class="stacks">Stacks</span>
+    <span class="stacks">Stacks</span> */}
               </div>
             </h3>
             <h3 className="text-center  p-2 ">
