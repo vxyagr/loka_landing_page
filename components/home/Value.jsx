@@ -37,9 +37,9 @@ const ValueSection = () => {
       img: "eco_icon.svg",
     },
     {
-      title: "40% APR",
+      title: "More BTC with less $",
       content:
-        "Our unique combination of low electricity costs and high-performance mining hardware ensures a rapid return on investment, with most users experiencing around 40% APR.",
+        "Our unique combination of low electricity costs and high performance mining hardware ensures a rapid return on investment by getting you more BTC with the same dollar amount compared to buying at the market price, or investing in other Bitcoin mining farm.",
       img: "monetization_icon.svg",
     },
   ];
