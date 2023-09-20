@@ -28,7 +28,7 @@ const HeroSection = () => {
         screenWidth < 750 ? "" : "background-hero"
       }`}
     >
-      <div className="absolute inset-0 lg:bg-black lg:bg-opacity-20"></div>
+      <div className="absolute inset-0 lg:bg-black lg:bg-opacity-40"></div>
       <div className="container mx-auto px-4 lg:py-6 md:py-6 py-0 relative">
         <div className="grid  gap-4  items-start h-[100vh]">
           <div className="text-white grid lg:pt-40 pt-20 md:pt-50 justify-center items-center text-center">
@@ -37,8 +37,11 @@ const HeroSection = () => {
             </h1>
 
             <div className="">
-              <h2 className="text-xl md:text-2xl lg:text-2xl font-bold text-center inline-block justify-center items-center p-6   hero-lexend">
-                Get your sats daily, with nothing to worry.
+              <h2 className="text-xl md:text-3xl lg:text-3xl font-bold text-center inline-block justify-center items-center p-6   hero-lexend">
+                Fractional Bitcoin mining contract collateralized on-chain 1:1
+                by BTC.
+                <br />
+                Get your sats daily without the risk of centralized party.
               </h2>
             </div>
             <h2 className="text-4xl p-10 md:text-4xl lg:text-7xl font-bold text-center  ">

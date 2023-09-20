@@ -57,10 +57,21 @@ const HowItWorksSection = () => {
             <div className="p-1 text-3xl font-bold">
               Loka Mining is a{" "}
               <span className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
-                Bitcoin Mining as a Service platform
+                Trustless On-Chain Bitcoin Mining as a Service platform
               </span>
             </div>
             <div className="p-1  common-content text-base">
+              <div className="p-4 pl-0  text-yellow-400">
+                Tired of getting rugged by ponzi schemes disguised as cloud
+                mining platform?
+              </div>
+              <div className="p-4 pl-0">
+                Our mining contract is guaranteed by BTC collateral on-chain,
+                non custodial with 1:1 value to eliminate centralized party
+                risk. If mining operation stopped or cease to exist before your
+                mining contract ends, the BTC collateral will automatically be
+                paid to you.
+              </div>
               <div className="p-4 pl-0">
                 When you purchase a mining contract with Loka, you’re
                 essentially renting high-end ASIC hardware in a certain period

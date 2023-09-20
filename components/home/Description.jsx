@@ -31,18 +31,21 @@ const DescriptionSection = () => {
     },
     {
       title: "Affordable Electricity 24/7",
-      content: "No need to buy and setup $$$ of mining hardware",
+      content:
+        "No need to buy and setup $$$ of mining hardware and worry of high energy cost",
       img: "eco_icon.svg",
     },
+
     {
       title: "40% APR",
-      content: "No need to worry about high electricity cost",
+      content:
+        " Starts as low $100 and as short as 1-month period of mining contract",
       img: "monetization_icon.svg",
     },
     {
       title: "40% APR",
       content:
-        " Starts as low $100 and as short as 1-month period of mining contract",
+        "No centralized party risk as mining contract is fully collateralized 1:1 by BTC on-chain",
       img: "monetization_icon.svg",
     },
   ];

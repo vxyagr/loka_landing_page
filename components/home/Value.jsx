@@ -3,6 +3,12 @@ import React from "react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faDiscord,
+  faBitcoin,
+} from "@fortawesome/free-brands-svg-icons";
 //import backgroundImage from "../public/bg_green.jpg";
 import { isMobile, isTablet } from "react-device-detect";
 const ValueSection = () => {
@@ -25,22 +31,23 @@ const ValueSection = () => {
   }, []);
   const cards = [
     {
-      title: "100% Renewable Energy",
+      title: "No centralized party risk",
       content:
-        "Our mining operations are backed by an abundant supply of renewable energy, ensuring a sustainable and environmentally-friendly approach to Bitcoin mining.",
-      img: "electrical_services-icon.svg",
+        "Each mining contract is fully collateralized by BTC in a non-custodial way. Your investment is 100% guaranteed on-chain.",
+      img: "secure.svg",
     },
-    {
-      title: "Affordable Electricity 24/7",
-      content:
-        "With less than $0.04/kWh and 24/7 availability on any season, our strategic location in Indonesia allows us to take advantage of some of the lowest electricity costs in the world, maximizing your mining profits.",
-      img: "eco_icon.svg",
-    },
+
     {
       title: "More BTC with less $",
       content:
-        "Our unique combination of low electricity costs and high performance mining hardware ensures a rapid return on investment by getting you more BTC with the same dollar amount compared to buying at the market price, or investing in other Bitcoin mining farm.",
+        "With less than $0.04/kWh on any season, our strategic location allows us to have geographical advantage of having the lowest energy costs from excess electricity, maximizing your mining profits.",
       img: "monetization_icon.svg",
+    },
+    {
+      title: "100% Renewable Energy",
+      content:
+        "Our mining operations are backed by an abundant supply of renewable energy, ensuring a sustainable and environmentally-friendly approach to Bitcoin mining.",
+      img: "eco_icon.svg",
     },
   ];
 
