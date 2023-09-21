@@ -34,6 +34,7 @@ const ValueSection = () => {
       title: "No centralized party risk",
       content:
         "Each mining contract is fully collateralized by BTC in a non-custodial way. Your investment is 100% guaranteed on-chain.",
+      c2: "Don’t trust us. Trust the code.",
       img: "secure.svg",
     },
 
@@ -71,7 +72,12 @@ const ValueSection = () => {
                 />
                 {card.title}
               </h1>
-              <p className="text-white py-10 light-lexend">{card.content}</p>
+              <p className="text-white py-10 light-lexend">
+                {card.content}
+                <br />
+                <br />
+                {card.c2 ? card.c2 : ""}
+              </p>
             </div>
           ))}
         </div>
