@@ -75,28 +75,23 @@ const HowItWorksSection = () => {
               <div className="p-4 pl-0">
                 When you purchase a mining contract with Loka, you’re
                 essentially renting high-end ASIC hardware in a certain period
-                of time and delegates the mining operation to our professional
-                team.
+                of time and delegates the mining operation to professional
+                bitcoin miner team.
               </div>
               <div className="p-4 pl-0">
-                The mining sites are located next to hydro power plants with
-                excess energy — that’s why we get such a low electricity price.
+                The mining facilities are using excess energy — that’s why we
+                get such a low electricity price.
               </div>
               <div className="p-4 pl-0">
-                The mining contract is tokenized as NFT and bitcoin yield from
+                The mining contract is tokenized as NFT and bitcoin rewards from
                 the mining operation will be delivered to your personal vault
                 every 24hrs where you can withdraw at anytime.
               </div>
               <div className="p-4 pl-0">
                 By the end of your contract, you’ll have received more Bitcoin
                 than if you had simply purchased it from an exchange at market
-                price – it’s like getting Bitcoin at a steep discount!*
+                price – it’s like getting Bitcoin at a steep discount.
               </div>{" "}
-              <div className="p-4 pl-0 text-sm">
-                *on current bitcoin price $30,000 with our electricity cost{" "}
-                {"(<4 cents/kWH)"}, you will get around ~40% APR{" "}
-                {"(or ~30% discount)"} on 1 year mining contract.
-              </div>
             </div>
           </div>
           <div className=" text-3xl font-bold text-center w-full p-5 text-yellow-400">
