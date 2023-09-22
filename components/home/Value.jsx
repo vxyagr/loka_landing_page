@@ -72,7 +72,7 @@ const ValueSection = () => {
                 />
                 {card.title}
               </h1>
-              <p className="text-white py-10 light-lexend">
+              <p className="text-white py-10 light-lexend justify-items-center items-center text-center">
                 {card.content}
                 <br />
                 <br />
