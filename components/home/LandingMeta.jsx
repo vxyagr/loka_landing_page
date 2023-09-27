@@ -23,7 +23,7 @@ const LandingMeta = ({}) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         property="og:description"
-        content="On-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
+        content="Fully colateralized on-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
       />
       <meta
         property="og:image"
@@ -40,7 +40,7 @@ const LandingMeta = ({}) => {
       />
       <meta
         name="twitter:description"
-        content="On-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
+        content="Fully colateralized on-chain Bitcoin Mining as a Service, using excess power from renewable energy. Get your sats daily at 30%++ discount rate."
       />
       <meta
         name="twitter:image"
