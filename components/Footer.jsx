@@ -11,13 +11,13 @@ const Footer = () => {
           {/*<Link href="#howitworks">
             <a className="text-link">How it Works</a>
           </Link>*/}
-          <Link href="https://docs.lokamining.com">
+          <Link href="https://go.lokamining.com/about">
             <a
               className="block text-link "
               target="_blank"
               rel="noopener noreferrer"
             >
-              Docs
+              About
             </a>
           </Link>
         </div>
