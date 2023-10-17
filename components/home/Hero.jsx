@@ -72,14 +72,14 @@ const HeroSection = () => {
             </h3>
             <h3 className="text-center  p-2 ">
               <div className="inline-block">
-                <Link href={"https://docs.lokamining.com"}>
+                <Link href={"https://go.lokamining.com/about"}>
                   <a
                     className="block text-link "
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <button className="content-div font-bold bg-white   bg-opacity-70 rounded-xl hero-lexend  text-black lg:text-xl md:text-xl text-md  lg:py-2 lg:px-4 py-1 px-4 l active:scale-95 sm:text-xl  transition duration-300 ease-in-out ">
-                      Read LOKA Docs
+                      Learn More
                     </button>
                   </a>
                 </Link>
