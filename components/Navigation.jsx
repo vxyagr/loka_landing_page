@@ -38,13 +38,13 @@ const NavBar = () => {
               >
                 <FontAwesomeIcon icon={faDiscord} size="lg" />
               </a>
-              <Link href="https://docs.lokamining.com" target="_blank">
+              <Link href="https://go.lokamining.com/about" target="_blank">
                 <a
                   className="text-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Docs
+                  About
                 </a>
               </Link>
             </div>
