@@ -25,7 +25,7 @@ const Landing = () => {
             <Header />
           </div>
           <section className="text-center  lg:py-16 py-5 bg-[#65b2a5]  ">
-            <div className="min-h-[45px]"></div>
+            <div className="lg:min-h-[45px]"></div>
             <div className="grid lg:flex w-full pt-20">
               <div className="grid lg:pl-[10%] p-5 pt-10 lg:w-[60%] ">
                 <h1 className="lg:w-[50%] text-5xl font-bold mb-4 text-warm-white text-left justify-start">
@@ -48,7 +48,7 @@ const Landing = () => {
                   </div>
                 </a>
               </div>
-              <div className="lg:pr-[10%]  pt-10 lg:w-[40%] flex">
+              <div className="lg:pr-[10%]  pt-0 lg:w-[40%] flex">
                 <img src={hero} />
               </div>
             </div>
@@ -133,6 +133,7 @@ const Landing = () => {
                   <img src={miningpool} />
                 </div>
               </div>
+              <div className="lg:min-h-[80px]"></div>
               {/* Loka Hashrate Marketplace */}
               <div className="lg:flex grid w-full">
                 <div className="lg:w-[45%] w-full items-center justify-center text-center flex">
@@ -274,6 +275,9 @@ const Landing = () => {
                     Blog
                   </a>
                 </div>
+              </div>
+              <div className="w-full text-center text-base p-5">
+                © 2024 Loka. All rights reserved.
               </div>
             </div>
           </section>
