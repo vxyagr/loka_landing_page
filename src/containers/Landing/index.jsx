@@ -224,8 +224,9 @@ const Landing = () => {
               </div>
             </div>
           </section>
-          <section className="bg-[#fafef5] lg:px-[10%] p-5 pt-12 pb-10">
-            <div className="bg-white rounded-2xl drop-shadow-md p-10 text-center items-center justify-center">
+          <section className="bg-[#fafef5] lg:px-[10%] grid p-5 pt-12 lg:pt-20 pb-10 lg:min-h-[400px]">
+            <div className="lg:min-h-[50px"></div>
+            <div className="bg-white  rounded-2xl drop-shadow-md p-10 text-center items-center justify-center">
               <h2 className="text-5xl font-bold mb-4">
                 We are building something awesome here.
               </h2>
@@ -241,6 +242,7 @@ const Landing = () => {
                 </div>
               </div>
             </div>
+            <div className="lg:min-h-[100px"></div>
           </section>
 
           <section className="bg-[#518e84] lg:px-[10%] p-5 pt-12">
