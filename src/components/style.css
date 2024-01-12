@@ -1,0 +1,15 @@
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.transition-max-h {
+  max-height: 100vh;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Adjust as needed to ensure it's above other content */
+}

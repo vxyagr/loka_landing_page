@@ -1,26 +1,27 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      backgroundColor: {
-        "custom-blue": "#152233",
-        "upper-gradient": "#747620",
-        "lower-gradient": "#192E6A",
-        "custom-green": "#027344",
-      },
-      textColor: {
-        "custom-blue": "#152233",
-        "custom-green": "#027344",
-      },
       backgroundImage: {
-        "gradient-custom": "linear-gradient(30deg, var(--tw-gradient-stops))",
+        "gradient-to-r": "linear-gradient(to right, #2b47b4, #854498)",
+      },
+      fontFamily: {
+        sans: ["'Inter Variable'", ...defaultTheme.fontFamily.sans],
+        passero: ["'Passero One'"],
+        passion: ["'Passion One'"],
+      },
+      colors: {
+        "dark-blue": "#1E3557",
+        "bold-blue": "#0754C4",
+        "bright-red": "#EE5151",
+        "warning-yellow": "#FAC515",
+        "warm-white": "#FAF7EE",
+        "dark-cream": "#DDD9CB",
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
