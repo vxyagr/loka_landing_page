@@ -24,30 +24,33 @@ const Landing = () => {
           <div className="z-50 absolute">
             <Header />
           </div>
-          <section className="text-center  lg:py-16 py-5 bg-[#65b2a5] grid lg:flex w-full pt-20 ">
-            <div className="grid lg:pl-[10%] p-5 pt-10 lg:w-[60%] ">
-              <h1 className="lg:w-[50%] text-5xl font-bold mb-4 text-warm-white text-left justify-start">
-                Loka - Making Bitcoin Mining Possible for Everyone
-              </h1>
-              <p className="mb-4 text-left justify-start text-warm-white text-lg w-[80%]">
-                Earn mining reward and get Bitcoin at lower than market price by
-                providing liquidity for miners.
-                <br />
-                <br />
-                Bitcoin miners share their mining rewards with retail investors
-                who are looking for pre-market access to bitcoin. In exchange,
-                miners get a more secure cash flow to better manage and scale
-                operations. With Loka, both sides help contribute to the
-                continued decentralization of the Bitcoin network.
-              </p>
-              <a href="https://go.lokamining.com/about" target="blank">
-                <div className="cursor-pointer max-w-[150px] m-4 ml-0 text-xl border-warm-white border text-warm-white bg-[#326212] py-2 px-1 rounded-3xl">
-                  About Loka
-                </div>
-              </a>
-            </div>
-            <div className="lg:pr-[10%]  pt-10 lg:w-[40%] flex">
-              <img src={hero} />
+          <section className="text-center  lg:py-16 py-5 bg-[#65b2a5]  ">
+            <div className="min-h-[45px]"></div>
+            <div className="grid lg:flex w-full pt-20">
+              <div className="grid lg:pl-[10%] p-5 pt-10 lg:w-[60%] ">
+                <h1 className="lg:w-[50%] text-5xl font-bold mb-4 text-warm-white text-left justify-start">
+                  Loka - Making Bitcoin Mining Possible for Everyone
+                </h1>
+                <p className="mb-4 text-left justify-start text-warm-white text-lg w-[80%]">
+                  Earn mining reward and get Bitcoin at lower than market price
+                  by providing liquidity for miners.
+                  <br />
+                  <br />
+                  Bitcoin miners share their mining rewards with retail
+                  investors who are looking for pre-market access to bitcoin. In
+                  exchange, miners get a more secure cash flow to better manage
+                  and scale operations. With Loka, both sides help contribute to
+                  the continued decentralization of the Bitcoin network.
+                </p>
+                <a href="https://go.lokamining.com/about" target="blank">
+                  <div className="cursor-pointer max-w-[150px] m-4 ml-0 text-xl border-warm-white border text-warm-white bg-[#326212] py-2 px-1 rounded-3xl">
+                    About Loka
+                  </div>
+                </a>
+              </div>
+              <div className="lg:pr-[10%]  pt-10 lg:w-[40%] flex">
+                <img src={hero} />
+              </div>
             </div>
           </section>
           <section className="bg-warm-white w-full">
@@ -251,9 +254,9 @@ const Landing = () => {
                   </a>
                 </div>
                 <div className="px-4 flex">
-                  {" "}
-                  {FaDiscord}
-                  <FaDiscord className="h-6 w-6" />
+                  <a href="https://discord.gg/yDytXMMDs9" target="blank">
+                    <FaDiscord className="h-6 w-6" />
+                  </a>
                 </div>
                 <div className="px-4">
                   <a href="#" target="blank">
