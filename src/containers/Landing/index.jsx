@@ -49,7 +49,7 @@ const Landing = () => {
                 </a>
               </div>
               <div className="lg:pr-[10%]  pt-0 lg:w-[40%] flex">
-                <img src={hero} />
+                <img src={hero} className="object-contain" />
               </div>
             </div>
           </section>
