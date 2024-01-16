@@ -155,7 +155,7 @@ const Landing = () => {
                     </p>
 
                     <div className="flex p-2">
-                      <img src={ch} className="w-6 h-6 " />
+                      <img src={ch} className="w-6 h-6 pt-2 " />
                       <p className="pl-4">
                         Investors can purchase collateralized contracts of
                         future hashrate for a certain period of time from any
