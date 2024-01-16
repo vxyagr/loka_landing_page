@@ -78,7 +78,7 @@ export const AppProvider = ({ children }) => {
       }}
     >
       <Helmet>
-        <title>Loka Mining Protocol</title>
+        <title>Loka - Bitcoin DeFi and Mining for Everyone</title>
         <link rel="icon" type="png" href={smallIcon} />
         <link rel="apple-touch-icon" type="png" href={smallIcon} />
       </Helmet>
