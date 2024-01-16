@@ -37,7 +37,7 @@ const Landing = () => {
                   <br />
                   <br />
                   Liquidity providers enable Bitcoin miners to get mining
-                  rewards everyday and earn native BTC yield in return
+                  rewards everyday and earn native BTC yield in return.
                   <br />
                   Bitcoin miners get a more secure cash flow to better manage
                   and scale operations by selling their future hashrates
