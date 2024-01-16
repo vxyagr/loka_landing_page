@@ -29,18 +29,22 @@ const Landing = () => {
             <div className="grid lg:flex w-full pt-20">
               <div className="grid lg:pl-[10%] p-5 pt-10 lg:w-[60%] ">
                 <h1 className="lg:w-[50%] text-5xl font-bold mb-4 text-warm-white text-left justify-start">
-                  Loka - Making Bitcoin Mining Possible for Everyone
+                  Making Bitcoin Mining and DeFi Possible for Everyone.
                 </h1>
                 <p className="mb-4 text-left justify-start text-warm-white text-lg w-[80%]">
-                  Earn mining reward and get Bitcoin at lower than market price
-                  by providing liquidity for miners.
+                  Earn mining reward and get BTC at lower than market price by
+                  participating in Bitcoin mining ecosystem.
                   <br />
                   <br />
-                  Bitcoin miners share their mining rewards with retail
-                  investors who are looking for pre-market access to bitcoin. In
-                  exchange, miners get a more secure cash flow to better manage
-                  and scale operations. With Loka, both sides help contribute to
-                  the continued decentralization of the Bitcoin network.
+                  Liquidity providers enable Bitcoin miners to get mining
+                  rewards everyday and earn native BTC yield in return
+                  <br />
+                  Bitcoin miners get a more secure cash flow to better manage
+                  and scale operations by selling their future hashrates
+                  directly to retail investors.
+                  <br />
+                  Retail investors get BTC lower than market price through
+                  native Bitcoin mining rewards and transaction fees.
                 </p>
                 <a href="https://go.lokamining.com/about" target="blank">
                   <div className="cursor-pointer max-w-[150px] m-4 ml-0 text-xl border-warm-white border text-warm-white bg-[#326212] py-2 px-1 rounded-3xl">
@@ -96,35 +100,35 @@ const Landing = () => {
           <section className="bg-[#effdfb] lg:px-[10%] p-5">
             {/* Loka Ecosystem */}
             <h2 className="text-5xl font-bold my-8 py-12">
-              There are two main components to the Loka ecosystem
+              Loka Ecosystem built on 2 pillars
             </h2>
             <div className="grid">
               {/* Loka Mining Pool */}
               <div className="lg:flex grid w-full">
                 <div className="lg:w-[55%] w-full">
                   <h3 className="text-3xl font-bold mb-4">
-                    The Loka Mining Pool
+                    The Decentralized Bitcoin Mining Pool
                   </h3>
                   <div className="mb-4 text-xl lg:pr-10 lg:w-[70%] text-[#475467]">
                     <p>
                       Built on a completely decentralized network on the
-                      Internet Computer Protocol (ICP), the Loka Mining Pool
-                      leverages ICP's chain key tech that optimizes for security
-                      and low-cost transactions.
+                      Internet Computer Protocol (ICP) as the Bitcoin sidechain,
+                      Loka’s Mining Pool leverages ICP's chain-key technology
+                      that optimizes for security and low-cost transactions.
                     </p>
-                    <p className="font-bold">This enables :</p>
+
                     <div className="flex p-2">
                       <img src={check} className="w-6 h-6 " />
                       <p className="pl-4">
-                        Anyone can earn a passive income (almost like staking)
-                        by providing bitcoin liquidity to miners
+                        Bitcoin miners gets a daily payout based on their
+                        hashrate contribution without minimum threshold
                       </p>
                     </div>
                     <div className="flex  p-2">
                       <img src={check} className="w-6 h-6 " />
                       <p className="pl-4">
-                        In exchange, miners get a daily payout based on their
-                        hashrate contributions
+                        Anyone can earn a passive income on their BTC by
+                        providing liquidity to Bitcoin miners
                       </p>
                     </div>
                   </div>
@@ -141,32 +145,30 @@ const Landing = () => {
                 </div>
                 <div className="lg:w-[55%] w-full">
                   <h3 className="text-3xl font-bold mb-4 lg:pl-20">
-                    The Loka Hashrate Marketplace
+                    The Hashrate Marketplace
                   </h3>
                   <div className="mb-4 text-xl lg:pl-20  text-[#475467]">
                     <p>
-                      The hashrate marketplace is like bitcoin itself — it's
-                      designed as a peer-to-peer way for miners and retail
-                      investors can interact in a non-custodial, trustless
-                      manner.
+                      Designed like Bitcoin itself, it is a peer to peer &
+                      permissionless way for miners and retail investors to
+                      interact in a non-custodial and trustless manner.
                     </p>
 
                     <div className="flex p-2">
                       <img src={ch} className="w-6 h-6 " />
                       <p className="pl-4">
-                        Invest in a Bitcoin mining operation by purchasing
-                        collateralized contracts of future hashrate for a
-                        certain period of time from anywhere in the world. Then
-                        get BTC at lower than market rates in return
+                        Investors can purchase collateralized contracts of
+                        future hashrate for a certain period of time from any
+                        Bitcoin miners in the world, and getting BTC at lower
+                        than market rates in return.
                       </p>
                     </div>
                     <div className="flex p-2">
                       <img src={ch} className="w-6 h-6 pt-2 " />
                       <p className="pl-4">
-                        Bitcoin miners gain early return on their investment.
-                        Steady cashflow can help scale hash rate capacity by
-                        purchasing more hardware or the liquidity can be used to
-                        hedge the risk of price volatility.
+                        Bitcoin miners gain early return on their investment to
+                        scale up their capacity, and hedging the risk of price
+                        volatility.
                       </p>
                     </div>
                   </div>
@@ -187,8 +189,9 @@ const Landing = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 pt-20">Open Source</h3>
                 <p className="text-xl text-[#475467]">
-                  The protocol is completely open source, interface client, API,
-                  or directly with the smart contracts on the IC network.
+                  The protocol is completely open source, Connect to interface
+                  client, API, or directly with the smart contracts on the IC
+                  network.
                 </p>
               </div>
               <div className="bg-[#fde272] rounded-2xl p-5">
@@ -202,9 +205,9 @@ const Landing = () => {
                   Fully Decentralized
                 </h3>
                 <p className="text-xl text-[#475467]">
-                  All the code and services are stored in IC decentralized from
-                  end-to-end, eliminating centralized party risks associated
-                  with other Bitcoin mining operations.
+                  All the code and services are stored in decentralized storage
+                  from end-to-end, eliminating centralized party and regulatory
+                  risks associated with Bitcoin mining operations
                 </p>
               </div>
               <div className="bg-[#5fe9d0] rounded-2xl p-5">
@@ -218,8 +221,8 @@ const Landing = () => {
                   Permissionless
                 </h3>
                 <p className="text-xl text-[#475467]">
-                  Loka is permissionless, non custodial, customizable front-end
-                  interface.
+                  Loka protocol is permissionless, non custodial, with
+                  customizable front-end interface.
                 </p>
               </div>
             </div>
