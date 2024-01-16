@@ -29,7 +29,7 @@ const Landing = () => {
             <div className="grid lg:flex w-full pt-20">
               <div className="grid lg:pl-[10%] p-5 pt-10 lg:w-[60%] ">
                 <h1 className="lg:w-[50%] text-5xl font-bold mb-4 text-warm-white text-left justify-start">
-                  Making Bitcoin Mining and DeFi Possible for Everyone.
+                  Making Bitcoin DeFi and Mining Possible for Everyone.
                 </h1>
                 <p className="mb-4 text-left justify-start text-warm-white text-lg w-[80%]">
                   Earn mining reward and get BTC at lower than market price by
