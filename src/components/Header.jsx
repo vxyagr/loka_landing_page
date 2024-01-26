@@ -135,7 +135,7 @@ export default function Header() {
             <a
               className="py-1 px-2 lg:py-2.5 lg:px-4"
               target="blank"
-              href="https://go.lokamining.com"
+              href="https://go.lokamining.com/about"
             >
               About
             </a>
