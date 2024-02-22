@@ -1,2 +1,2 @@
-# icdragon
-dice rolling game on Internet Computer
+# Lokamining
+Loka Landing Page
