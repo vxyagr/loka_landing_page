@@ -1,0 +1,110 @@
+.community-container {
+    background-color: #151c2b;
+    padding: 30px 0px;
+    width: 100%;
+    background: radial-gradient(70.04% 67.97% at 27.13% 105.23%, #996A11 0%, #151c2b);
+    
+}
+
+.community-inner-container {
+    background: linear-gradient(93.49deg, rgba(6, 57, 96, 0.81) -9.65%, rgba(47, 59, 43, 0.81) 38.22%);
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.community-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: white !important;
+
+}
+
+
+.community-desc {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: white !important;
+    
+}
+
+.join-discord-button {
+    width: 165px;
+    background: linear-gradient(88.85deg, #043153 -9.61%, #E09B00 116.77%);
+    color: white;
+    border: none !important;
+    padding: 0px 24px !important;
+    margin-top: 36px;
+    height: 48px !important;
+    border-radius: 25px;
+}
+
+.navigation-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.social-media-container {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        gap: 32px;
+}
+
+.social-media-button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.social-media-button:hover {
+    color: white !important;
+    background-color: transparent !important;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.footer-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}

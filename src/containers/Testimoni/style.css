@@ -1,0 +1,22 @@
+.testimoni-container {
+    background: linear-gradient(296deg, #002A4A 23.49%, #A87604 73.43%)
+    
+}
+
+.testimoni-container .ant-typography {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.testimoni-container .name {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}

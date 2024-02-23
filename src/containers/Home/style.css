@@ -1,0 +1,64 @@
+.landing-home-section {
+    width: 100%;
+    background: radial-gradient(ellipse at top right, #063960, 20%, #111928);
+}
+
+.text-container .ant-typography {
+    color: white;
+}
+
+.text-container .sub-hero-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about-loka-button {
+    background: linear-gradient(88.85deg, #043153 -9.61%, #E09B00 116.77%);
+    color: white;
+    border: none !important;
+    padding: 0px 24px !important;
+    margin-top: 36px;
+    height: 48px !important;
+}
+
+.about-loka-button:hover {
+    color: white !important;
+    background: linear-gradient(88.85deg, #043153 -9.61%, #E09B00 116.77%) !important;
+}
+
+.hero-image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-start
+    
+}
+
+.backers-container {
+    background: #FFFFFFE5;
+    padding: 48px 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.our-backert-text {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+
+.our-backert-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
