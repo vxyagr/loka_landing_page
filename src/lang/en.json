@@ -10,7 +10,7 @@
   "about": {
     "title": "There are two main components to the Loka ecosystem",
     "miningPoolTitle": "The Loka Mining Pool",
-    "miningPoolDesc": "Built as a completely decentralized network on the Internet Computer Protocol (ICPs), the Loka Mining Pool leverages ICP’s chain-key tech that optimizes for security and low-cost transactions.",
+    "miningPoolDesc": "Built as a completely decentralized network on the Internet Computer Protocol (ICP), the Loka Mining Pool leverages ICP’s chain-key tech that optimizes for security and low-cost transactions.",
     "miningPoolPointFirst": "Anyone can earn a passive income (almost like staking) by providing bitcoin liquidity to miners",
     "miningPoolPointSecond": "In exchange, miners get a daily payout based on their hashrate contributions",
     "hashRateMarketPlaceTitle": "The Loka Hashrate Marketplace",

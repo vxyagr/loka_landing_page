@@ -10,7 +10,7 @@
   "about": {
     "title": "Ada dua komponen utama dalam ekosistem Loka",
     "miningPoolTitle": "Kolam Penambangan Loka",
-    "miningPoolDesc": "Dibangun sebagai jaringan yang sepenuhnya terdesentralisasi pada Protokol Internet Computer (ICPs), Kolam Penambangan Loka memanfaatkan teknologi kunci rantai ICP yang dioptimalkan untuk keamanan dan transaksi biaya rendah.",
+    "miningPoolDesc": "Dibangun sebagai jaringan yang sepenuhnya terdesentralisasi pada Protokol Internet Computer (ICP), Kolam Penambangan Loka memanfaatkan teknologi kunci rantai ICP yang dioptimalkan untuk keamanan dan transaksi biaya rendah.",
     "miningPoolPointFirst": "Siapapun dapat memperoleh pendapatan pasif (hampir seperti staking) dengan menyediakan likuiditas bitcoin kepada penambang",
     "miningPoolPointSecond": "Sebagai gantinya, penambang mendapatkan pembayaran harian berdasarkan kontribusi hashrate mereka.",
     "hashRateMarketPlaceTitle": "Pasar Hashrate Loka",
